@@ -1,0 +1,127 @@
+
+/* ==========================================================================
+   General
+   ========================================================================== */
+   
+body {
+  font-family: 'Source Code Pro', sans-serif;
+  color: #333;
+  font-weight: 100;
+}
+
+h1 { font-weight: 100; }
+
+/* ==========================================================================
+   top-header
+   ========================================================================== */
+   
+.top-header { margin: 15em 0; }
+
+.btn {
+  position: relative;
+  background-color: #2ecc71;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 1.5em;
+  display: inline-block;
+  padding: .5em 2em;
+  -webkit-box-shadow: 0 4px 0 #27ae60;
+  box-shadow: 0 4px 0 #27ae60;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(72, 206, 128, 1);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:focus { outline: none; }
+
+.btn:active {
+  top: 1px;
+  -webkit-box-shadow: 0 3px 0 #27ae60;
+  box-shadow: 0 3px 0 #27ae60;
+}
+
+/* ==========================================================================
+   social icons
+   ========================================================================== */
+
+/*.social-icons {
+  padding-top: 1.5em;
+  padding-left: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.social-icons li:last-child { padding-right: 0; }
+
+.social-icons li a {
+  color: #333;
+  font-size: 1.2em;
+}
+
+.twitter:hover { color: #55acee; }
+
+.facebook:hover { color: #3b5998; }
+*/
+
+/* ==========================================================================
+   blinking
+   ========================================================================== */
+
+#typed { font-size: 36px; }
+
+#typed-cursor {
+  position: relative;
+  top: -3.5px;
+  left: -6px;
+  font-size: 2.3em;
+  color: #e74c3c;
+}
+
+#typed-cursor {
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+ @-keyframes blink {
+ 0% {
+opacity:1;
+}
+ 50% {
+opacity:0;
+}
+ 100% {
+opacity:1;
+}
+}
+ @-webkit-keyframes blink {
+ 0% {
+opacity:1;
+}
+ 50% {
+opacity:0;
+}
+ 100% {
+opacity:1;
+}
+}
+ @-ms-keyframes blink {
+ 0% {
+opacity:1;
+}
+ 50% {
+opacity:0;
+}
+ 100% {
+opacity:1;
+}
+}
