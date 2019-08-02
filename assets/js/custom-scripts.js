@@ -13,9 +13,9 @@ $(function() {
       $(".header-overlay").css('min-height', height);
     }
 
-    var top = Math.max($(window).height() / 2 - $("#header-body").offsetHeight / 2, 0);
-    $("#header-body").css('padding-top', top + "px").css('padding-bottom', (top - $('#header-navbar ').height()) + "px");
-    $("#header-body").css('position', 'relative');
+    var top = Math.max($(window).height() / 2 - $("#headerbody").offsetHeight / 2, 0);
+    $("#headerbody").css('padding-top', top + "px").css('padding-bottom', (top - $('#header-navbar ').height()) + "px");
+    $("#headerbody").css('position', 'relative');
   }
 
 
@@ -35,7 +35,7 @@ $(function() {
 
   /**
    * =======================================
-   * Function: Resize Background For "two-cols-description-with-slider" Section.
+   * Function: Resize Background For "description1" Section.
    * =======================================
    */
   var Slider_height_width = function() {

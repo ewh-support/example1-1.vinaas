@@ -70,7 +70,7 @@
 	 * Our Work Style
 	 * ==============================
 	 */
-  #our-work .grid figure {
+  #ourwork .grid figure {
     display: block;
     margin: 0px auto;
   }
@@ -247,7 +247,7 @@
     -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
   }
-  #map_contact #map-btn-tab {
+  #mapcontact #map-btn-tab {
     position: relative;
     left: 0%;
     -webkit-transform: translate3d(0%, 0%, 0);
@@ -279,15 +279,15 @@
 	 * Two Cols Description with Image Style
 	 * ===============================
 	 */
-  .two-cols-description-with-image .description-info,
-  .two-cols-description-with-image .two-cols-description-image {
+  .description2 .description-info,
+  .description2 .two-cols-description-image {
     display: block !important;
     float: none !important;
   }
-  .two-cols-description-with-image .two-cols-description-image {
+  .description2 .two-cols-description-image {
     padding: 0 !important;
   }
-  .two-cols-description-with-image .two-cols-description-image img {
+  .description2 .two-cols-description-image img {
     height: auto;
     width: 100% !important;
     position: relative;
@@ -299,7 +299,7 @@
 	 * Two Cols Description with Slider Style
 	 * ===============================
 	 */
-  .two-cols-description-with-slider-body img {
+  .description img {
     height: auto;
     width: 100% !important;
     position: relative;

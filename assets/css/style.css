@@ -12,7 +12,7 @@
             2.2.2. Header Style 1 / .header
             2.2.2. Header Style 2 / .header-2
 
-    3. Map and Contant / #map_contact
+    3. Map and Contant / #mapcontact
         3.1. Map Show And Hede Button / #map-btn-tab
         3.2. Map / .map-map
             3.2.1. Map body / .map-body
@@ -56,7 +56,7 @@
         10.1. News letter body / .news_letter_body
         10.2. Subscription From / /subscribe-form-inner
 
-    11. Our Work Section / #our-work
+    11. Our Work Section / #ourwork
         11.1.  Magrine Image Gallery / .zoom-gallery
 
     12.  Defult Hover Style / .grid
@@ -76,10 +76,10 @@
         16.1. Sponsors List style
         16.2. Become a sponsors Button / .become-a-sponsor
 
-    17. Our Featured Section / #our-featured
+    17. Our Featured Section / #ourfeatured
         17.1. Video / .video
 
-    18. Two Cola Description / .two-cols-description-with-slider 
+    18. Two Cola Description / .description1 
         18.1. Slider / .slider-bar
         18.2. Inner Description / .description-info-inner
 
@@ -87,7 +87,7 @@
         19.1 Slider Body / .slides
             19.1.1. Images style / img
 
-    20. Collapse Section / #collapse-area
+    20. Collapse Section / #collapsearea
         20.1. collapse Section Body / .collapse-inner
             20.1.1. Collapse Tab / .collapse-tab
 
@@ -103,7 +103,7 @@
         23.1. CountDown Number / .counter
         23.2. CountDown Title / .title
 
-    24. Counter-Up / .countdown-up
+    24. Counter-Up / .countdownup
         -- Same style in CountDown [ Index Number 23 ]
 
 
@@ -928,7 +928,7 @@ h3 {
 .header .section-separator {
   padding-bottom: 140px;
 }
-.header .header-body {
+.header .headerbody {
   margin: auto;
   text-align: center;
   position: relative;
@@ -972,12 +972,12 @@ h3 {
  *  Map and Contant Style
  * ===============================
  */
-#map_contact {
+#mapcontact {
   position: relative;
   z-index: 1;
   padding: 100px 0;
 }
-#map_contact #map-btn-tab {
+#mapcontact #map-btn-tab {
   position: relative;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
@@ -1433,7 +1433,7 @@ h3 {
  * Our Work Section Style
  * ===============================
  */
-#our-work .section-header {
+#ourwork .section-header {
   margin-bottom: 60px;
 }
 .mfp-title {
@@ -1707,14 +1707,14 @@ footer .footer-body .copyright p .fa {
  * Our featured Section Style
  * ===============================
  */
-#our-featured .video {
+#ourfeatured .video {
   margin-top: 50px;
   position: relative;
   padding-top: 56.25%;
   height: 0;
   background-color: #000000;
 }
-#our-featured iframe {
+#ourfeatured iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -1728,7 +1728,7 @@ footer .footer-body .copyright p .fa {
  * Two cols Description with Slider Style
  * ===============================
  */
-.two-cols-description-with-slider .slider-bar .slides li {
+.description1 .slider-bar .slides li {
   height: 100% !important;
 }
 .description-info-inner {
@@ -1774,17 +1774,17 @@ footer .footer-body .copyright p .fa {
  * Two cols description width image
  * ========================================
  */
-.two-cols-description-with-image .description-info,
-.two-cols-description-with-image .two-cols-description-image {
+.description2 .description-info,
+.description2 .two-cols-description-image {
   display: table-cell;
   float: none !important;
 }
-.two-cols-description-with-image .two-cols-description-image {
+.description2 .two-cols-description-image {
   background-color: rgba(48, 133, 163, 0.46);
   position: relative;
   overflow: hidden;
 }
-.two-cols-description-with-image .two-cols-description-image img {
+.description2 .two-cols-description-image img {
   position: absolute;
   min-width: 100%;
   max-width: none;
@@ -1793,7 +1793,7 @@ footer .footer-body .copyright p .fa {
   left: 0;
   opacity: 0.9;
 }
-.two-cols-description-with-image-body {
+.style_description {
   display: table !important;
 }
 /**
@@ -2266,10 +2266,10 @@ footer .footer-body .copyright p .fa {
  * Counter-Up Section Style
  * =================================
  */
-.countdown-up .section-header .section-heading {
+.countdownup .section-header .section-heading {
   color: #fff;
 }
-.countdown-up .count_down .background .counter {
+.countdownup .count_down .background .counter {
   font-size: 48px;
 }
 /**

@@ -59,7 +59,7 @@ p {
  * Header Contant style
  * ==========================
  */
-.header-body img {
+.headerbody img {
   background-color: #3ac353;
 }
 /**
@@ -67,7 +67,7 @@ p {
  * Map and Contact style
  * ==========================
  */
-#map_contact {
+#mapcontact {
   background-color: #ffffff;
 }
 #map-btn {
@@ -204,7 +204,7 @@ p {
  * Our Work
  * ==================================
  */
-#our-work {
+#ourwork {
   background-color: #ffffff;
 }
 .zoom-gallery a:after {
@@ -293,7 +293,7 @@ footer .footer-body .copyright p .fa {
  * Our Featured Style
  * ===============================
  */
-#our-featured {
+#ourfeatured {
   background-color: #ffffff;
 }
 /**
@@ -301,7 +301,7 @@ footer .footer-body .copyright p .fa {
  * Two cols description width image slider
  * ===============================
  */
-.two-cols-description-with-slider {
+.description1 {
   background-color: #ffffff;
 }
 .description-info-inner ul li:before {
@@ -324,7 +324,7 @@ footer .footer-body .copyright p .fa {
  * Two cols description width image
  * ========================================
  */
-.two-cols-description-with-image {
+.description2 {
   background-color: #ffffff;
 }
 /**
@@ -341,7 +341,7 @@ footer .footer-body .copyright p .fa {
  * Collapse CSS
  * =========================================
  */
-#collapse-area {
+#collapsearea {
   background-color: #f6f6f6;
 }
 .collapse-tab .panel .panel-heading {
@@ -489,9 +489,9 @@ footer .footer-body .copyright p .fa {
   background-color: #f6f6f6;
 }
 .countdown .count_down .background .counter,
-.countdown-up .count_down .background .counter,
+.countdownup .count_down .background .counter,
 .countdown .count_down .background .title,
-.countdown-up .count_down .background .title {
+.countdownup .count_down .background .title {
   color: #3ac353;
 }
 /**
@@ -499,7 +499,7 @@ footer .footer-body .copyright p .fa {
  * Blog Section Style
  * ==================================
  */
-.blog-section {
+.blogsection {
   background-color: #ffffff;
 }
 .blog-post-demo .thumbnail {
